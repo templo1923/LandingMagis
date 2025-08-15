@@ -1324,6 +1324,37 @@ div.wpforms-container-full .wpforms-field-label-inline, .wp-core-ui div.wpforms-
 
         </div>
     </div>
+    <section class="distributor-locator" id="Distributor">
+        <h2>NUESTROS DISTRIBUIDORES</h2>
+        <p class="distributor-note">
+            NOTA: Filtre por país para encontrar distribuidores disponibles. Póngase en contacto con uno de ellos para realizar la compra. Si no dispone de ningún distribuidor en su país, por favor consulte con nuestro servicio de atención al cliente oficial.
+        </p>
+        
+        <div class="distributor-container">
+            <div class="search-box">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Elija su país" id="countrySearch">
+                    <div class="search-dropdown" id="searchDropdown"></div>
+                </div>
+            </div>
+            
+            <div class="countries-grid" id="countriesGrid">
+            </div>
+            
+            <table class="distributors-table" id="distributorsTable">
+                <thead>
+                    <tr>
+                        <th>País</th>
+                        <th>Distribuidor</th>
+                        <th>Teléfono</th>
+                        <th>WhatsApp/TG</th>
+                    </tr>
+                </thead>
+                <tbody id="distributorsTableBody">
+                </tbody>
+            </table>
+        </div>
+    </section>
 
     <section class="faq-section">
         <h2>Preguntas Frecuentes</h2>
@@ -2087,4 +2118,5 @@ var generatepressMenu = {"toggleOpenedSubMenus":"1","openSubMenuLabel":"Abrir el
 
 </body>
 </html>
+
 
